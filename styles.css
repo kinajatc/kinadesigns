@@ -1,0 +1,232 @@
+body{
+    /* width: 100%; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    line-height: 2em;
+    font-family: bicyclette,sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #dae1e6 ;
+}
+
+h1, .btn{
+    font-family: new-order,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.site-wrap{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 300px 400px 300px 1fr;
+    grid-gap: 40px;
+    /* grid-template-rows: auto; */
+    grid-template-rows: 100px 320px min-content min-content min-content min-content 100px;  
+    grid-template-areas: 
+        "nav nav nav nav nav"
+        ". . portfolio . ."
+        ". main main main ."
+        ". form form form ."
+        ". certifications certifications certifications ."
+        ". work-samples work-samples work-samples . "
+        "footer footer footer footer footer";
+}
+
+nav{
+    grid-area: nav;
+    background-color: #A6CFD9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+nav img{
+    height: 120px;
+    position: relative;
+    top: 1em;
+    left: 0;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #27418C;
+    font-family: new-order,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+.portfolio{
+    grid-area: portfolio;
+    /* background-color: gray; */
+    border: #27418C 3px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio img{
+    height: 300px;
+    /* border-radius: 5px; */
+}
+
+main{
+    grid-area: main;
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+main .btn{
+    float: right;
+    color: #27418C;
+    text-decoration: none;
+    border: 3px solid #27418C;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 20px 100px 20px 0px;
+}
+
+main .btn:hover{
+    background-color: #27418C;
+    color: white;
+    /* border: white 5px solid; */
+    border-radius: 5px;
+}
+
+article{
+    grid-area: form;
+    /* background-color: green; */
+    text-align: center;
+}
+
+.certification{
+    grid-area: certifications;
+    /* background-color: blue; */
+    display: grid;
+    text-align: center;
+    
+}
+
+.certification .badges{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: #27418C solid 3px;
+    border-radius: 10px;
+    padding: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: white; */
+}
+
+.certification .badges img{
+    
+    width: 200px;
+}
+
+
+.work-samples{
+    grid-area: work-samples;
+    /* background-color: purple; */
+    text-align: center;
+    /* display: grid; */
+}
+
+
+.work-samples .works-wrapper{
+    margin-top: 20px;
+    /* background-color: white; */
+    border: #27418C solid 3px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.work-samples .works-wrapper .works{
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-samples img{
+    width: 230px;  
+    border-radius: 10px;
+    /* justify-content: space-between; */
+}
+.work-samples .works .work-details{
+    position: relative;
+}
+
+.work-samples .works .work-details .more-details{
+    color: white;
+    /* vertical-align: baseline; */
+    background-color: rgba(0, 0, 0, 50%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 210px;
+    height: 50%;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+}
+
+.work-samples .works .work-details .more-details a{
+    text-decoration: none;
+    font-family: new-order,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.work-samples .works .work-details .more-details a:hover{
+    background-color: white;
+    color: #27418C;
+    /* border: #27418C; */
+}
+
+.work-samples .works-wrapper a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #27418C;
+    border: #27418C 3px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.work-samples .works-wrapper a:hover{
+    background-color: #27418C;
+    color: white;
+    /* border: white 5px solid; */
+    border-radius: 10px;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: #A6CFD9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+}
