@@ -21,7 +21,7 @@ h1, .btn{
 .site-wrap{
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 0.25fr 1.5fr 1fr;
     grid-gap: 40px;
     /* grid-template-rows: auto; */
     grid-template-rows: 100px 320px min-content min-content min-content min-content 100px;  
@@ -105,37 +105,64 @@ main .btn:hover{
     border-radius: 5px;
 }
 
-article{
+/* article{
     grid-area: form;
-    /* background-color: green; */
+    background-color: green; 
     text-align: center;
-}
+} */
 
 .certification{
     grid-area: certifications;
     /* background-color: blue; */
-    display: grid;
-    text-align: center;
+     /* display: grid; */
+    /*text-align: center; */
     
 }
 
-.certification .badges{
-    margin-top: 20px;
-    margin-bottom: 10px;
+.certification .badge-wrapper .badges{
+    margin: 20px;
     border: #27418C solid 3px;
-    border-radius: 10px;
-    padding: 25px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    /* border-radius: 10px; */
+    padding: 25px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     /* background-color: white; */
 }
 
 .certification .badges img{
     width: 100px;
+    margin: 10px;
 }
 
+/* .certification .skills-wrapper img path{
+    fill: #27418C;
+} */
+
+.certification .skills-wrapper{
+    border: #27418C solid 3px;
+    
+}
+
+.certification .skills-wrapper img{
+    width: 100px;
+}
+
+/* .certification .social-icons a img{
+    border-radius: 20px;
+} */
+
+.certification .social-icons{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.certification .social-icons img{
+    margin: 15px;
+    width: 80px;
+}
 
 .works{
     grid-area: works;
@@ -149,13 +176,14 @@ article{
     margin-top: 20px;
     /* background-color: white; */
     border: #27418C solid 3px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 25px;
 }
 
 .work-samples .works-wrapper .works{
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
