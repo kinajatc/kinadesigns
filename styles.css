@@ -139,9 +139,8 @@ main .btn:hover{
     fill: #27418C;
 } */
 
-.certification .skills-wrapper{
-    border: #27418C solid 3px;
-    
+.certification .skills-wrapper .skill-img-wrapper{
+    border: #27418C solid 3px; 
 }
 
 .certification .skills-wrapper img{
@@ -161,7 +160,7 @@ main .btn:hover{
 
 .certification .social-icons img{
     margin: 15px;
-    width: 80px;
+    height: 80px;
 }
 
 .works{
