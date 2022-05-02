@@ -1,0 +1,30 @@
+nav{
+    grid-area: nav;
+    background-color: #A6CFD9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+nav img{
+    height: 120px;
+    position: relative;
+    top: 1em;
+    left: 0;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #27418C;
+    font-family: new-order,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
