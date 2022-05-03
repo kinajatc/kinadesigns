@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+
+section{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+main .bio-wrapper{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    /* display: grid; */
+}
+
+main .bio-wrapper img{
+    background-color: black;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
