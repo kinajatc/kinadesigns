@@ -3,21 +3,40 @@ body{
 }
 
 section{
-    margin: 50px;
-    display: flex;
-    justify-content: center;
+    margin: 80px;
+    text-align: center;
 }
 
 main .bio-wrapper{
     margin: 50px;
     display: flex;
     justify-content: center;
-    /* display: grid; */
+    /* display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+        ". div ."
+        ". div ."
+        ". div ."; */
 }
 
-main .bio-wrapper img{
+
+main img{
     background-color: black;
     margin: 20px;
     width: 200px;
     height: 200px;
+}
+
+main .badge-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+main .badge-wrapper .badge{
+    display: block;
+    border: 1px solid black;
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-between;
 }
