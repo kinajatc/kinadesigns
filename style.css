@@ -24,8 +24,8 @@ main .bio-wrapper{
 main img{
     background-color: black;
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 100%;
 }
 
 main .badge-wrapper{
