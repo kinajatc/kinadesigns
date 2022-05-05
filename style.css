@@ -7,6 +7,10 @@ section{
     text-align: center;
 }
 
+main{
+    margin: 50px;
+}
+
 main .bio-wrapper{
     margin: 50px;
     display: flex;
@@ -28,15 +32,42 @@ main img{
     height: 100%;
 }
 
+
+
+
 main .badge-wrapper{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 main .badge-wrapper .badge{
-    display: block;
-    border: 1px solid black;
+    /* display: block;
+    border: 1px solid black; */
     margin: 20px 80px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+main .badge-wrapper .badge img{
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .badge-wrapper .badge div{
+    text-align: center;
+}
+
+
+
+main .works-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .works-wrapper .item img{
+    height: fit-content;
 }
