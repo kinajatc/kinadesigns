@@ -81,7 +81,8 @@ main .works-wrapper .item img{
 
 .contact-wrapper .contact{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
 }
 
 .contact-wrapper .contact img{
