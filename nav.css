@@ -35,7 +35,11 @@ nav a:hover{
 }
 
 footer{
-    grid-area: footer;
+    /* grid-area: footer; */
+    position: fixed;
+    bottom: 0px;
+    margin: 0px;
+    width: 100%;
     background-color: #A6CFD9;
     display: flex;
     align-items: center;

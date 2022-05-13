@@ -17,7 +17,7 @@
     </nav>
     <div class="contact-wrapper">
         <main>
-            <h1>contact me today!</h1>
+            <h1>Contact Me Today!</h1>
             
             <h3>Hours: 10am - 10pm </h3>
             
@@ -36,11 +36,16 @@
         <div class="right-wrapper">
             <h3>Google Form - <a href="https://forms.gle/8gu5vfeyv39RkUjJ6" target="_blank">Fill Out Here</a></h3>
             <br>
-            <form action="/action_page.php" method="post">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email or Phone">
-                <textarea name="message" rows="10" cols="50" placeholder="Message"></textarea>
-                <input type="submit">
+            <h3>Send Me an Email</h3>
+            <form action="mailto:kinadesigns.web@gmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail or Phone:<br>
+                <input type="text" name="mail"><br>
+                Message:<br>
+               <textarea name="message" rows="10" cols="50"></textarea>
+                <br><br>
+                <input type="submit" value="Send">
             </form>
         </div>
     </div>
