@@ -1,5 +1,7 @@
 nav{
     grid-area: nav;
+    margin: 0px;
+    width: 100%;
     background-color: #A6CFD9;
     display: flex;
     align-items: center;
@@ -8,14 +10,14 @@ nav{
     font-size: large;
 }
 
-nav img{
+nav .logo img{
     height: 120px;
     position: relative;
     top: 1em;
     left: 0;
 }
 
-nav img:hover{
+nav .logo img:hover{
     box-shadow: 5px 5px  10px #888888;
     transition: 0.5s;
 }
@@ -36,7 +38,7 @@ nav a:hover{
 
 footer{
     /* grid-area: footer; */
-    position: fixed;
+    position: relative;
     bottom: 0px;
     margin: 0px;
     width: 100%;

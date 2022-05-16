@@ -23,6 +23,7 @@ h1, .btn{
     display: grid;
     grid-template-columns: 20px 2fr min-content 2fr 20px;
     grid-gap: 40px;
+    justify-items: center;
     /* grid-template-rows: auto; */
     grid-template-rows: 100px 320px min-content min-content 100px;  
     grid-template-areas: 
@@ -151,11 +152,12 @@ main .btn:hover{
     /* background-color: purple; */
     text-align: center;
     /* display: grid; */
+    justify-content: center;
+    /* align-self: center; */
 }
 
-
 .work-samples .works-wrapper{
-    margin-top: 20px;
+    margin-top: 20px;    
     /* background-color: white; */
     border: #27418C solid 3px;
     /* border-radius: 10px; */
