@@ -6,6 +6,27 @@ body{
     font-style: normal; */
 }
 
+h1{
+    font-family: new-order,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #27418C;
+    font-size: 2em;
+}
+
+h3{
+    font-size: x-large;
+}
+
+h4{
+    font-size: large;
+}
+
+h5{
+    font-size: medium;
+}
+
+
 
 section{
     margin: 80px;
@@ -32,6 +53,7 @@ main .bio-wrapper{
     flex-direction: column;
     height: fit-content;
     justify-content: center;
+    align-items: center;
     text-align: center;
     /* display: grid;
     grid-template-columns: 1fr max-content 1fr;
@@ -42,9 +64,14 @@ main .bio-wrapper{
         ". div ."; */
 }
 
+main .bio-wrapper .bio-box{
+    border: #A6CFD9 5px solid;
+    padding: 10px;
+}
+
 #id-info{
-    border: 1px black solid;
-    margin: 90px;
+    border: 8px #27418C double;
+    margin: 90px 180px;
     padding: 20px;
 }
 
