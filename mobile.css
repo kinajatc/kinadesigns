@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    font-family: bicyclette,sans-serif;
+}
+h1{
+    font-family: new-order,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #27418C;
+    font-size: 2em;
+}
+
+h3{
+    font-size: x-large;
+}
+
+h4{
+    font-size: large;
+}
+
+h5{
+    font-size: medium;
+}
+
+section{
+    margin: 80px;
+    text-align: center;
+}
+
+main{
+    margin: 50px;
+}
+
+
+main #bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .bio-wrapper{
+    margin: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .bio-wrapper img{
+    width: 80%;
+}
+main .bio-wrapper .bio-box{
+    border: #A6CFD9 5px solid;
+    padding: 10px;
+}
+main img{
+    margin: 20px;
+    width: 300px;
+    height: fit-content;
+}
+#id-info{
+    border: 8px #27418C double;
+    padding: 20px;
+}
+
+
+
+main .badge-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .badge-wrapper .badge{
+    /* border: #27418C 1px solid; */
+    margin: 50px;
+}
+main .badge-wrapper .badge img{
+    /* height: fit-content; */
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main .badge-wrapper .badge div{
+    text-align: center;
+}
+
+
+
+
+main .works-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .works-wrapper .item img{
+    width: 90%;
+    height: fit-content;
+}
+
+
+
+.contact-wrapper{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.contact-wrapper .contact{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
+}
+
+.contact-wrapper .contact img{
+    width: 50px;
+    height: fit-content;
+}
+
+.vl {
+    border-bottom:6px solid black;
+    width: 90%;
+}
+
+.right-wrapper{
+    margin: 60px 100px;
+}
+.right-wrapper h3{
+    flex-wrap: nowrap;
+}
+
+.contact-wrapper a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-wrapper a:hover{
+    text-decoration: underline;
+}
+
+.right-wrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submit{
+    color: white;
+    background-color: #27418C;
+    padding: 10px;
+    width: 90px;
+    
+}

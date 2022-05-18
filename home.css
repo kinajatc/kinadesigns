@@ -236,15 +236,6 @@ main .btn:hover{
     border-radius: 10px;
 }
 
-.info-wrapper{
-    grid-area: info-wrapper;
-}
-
-/* .form-wrapper{
-    grid-area: form-wrapper;
-} */
-
-
 footer{
     grid-area: footer;
     background-color: #A6CFD9;

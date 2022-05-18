@@ -6,6 +6,45 @@ body{
     font-style: normal; */
 }
 
+/* .site-wrap{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20px 2fr min-content 2fr 20px;
+    grid-gap: 40px;
+    justify-items: center;
+    grid-template-rows: 100px 320px min-content min-content 100px;  
+    grid-template-areas: 
+        "nav nav nav nav nav"
+        ". portfolio portfolio portfolio ."
+        ". main main main ."
+        ". certifications works works ."
+        "footer footer footer footer footer";
+}
+nav{
+    grid-area: nav;
+}
+.portfolio{
+    grid-area: portfolio;
+}
+main{grid-area: main;}
+.certification{grid-area: certifications;}
+.works {grid-area: works;}
+.footer{grid-area: footer;}
+
+.work-samples .works-wrapper .works{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.work-samples img{
+    margin: 10px;
+    width: 230px;  
+    border-radius: 10px;
+}
+.work-samples .works .work-details{
+    position: relative;
+} */
+
+
 h1{
     font-family: new-order,sans-serif;
     font-weight: 700;
@@ -36,6 +75,7 @@ section{
 main{
     margin: 50px;
 }
+
 
 /* about styles */
 
@@ -115,7 +155,7 @@ main .badge-wrapper .badge div{
     text-align: center;
 }
 
-
+/* works */
 
 main .works-wrapper{
     display: grid;
