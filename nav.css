@@ -37,7 +37,6 @@ nav a:hover{
 }
 
 footer{
-    /* grid-area: footer; */
     position: relative;
     bottom: 0px;
     margin: 0px;
@@ -51,4 +50,9 @@ footer{
     right: 0;
     left: 0; */
 }
+/* 
+@media screen and (min-width: 480px) {
+    
 
+    
+} */
