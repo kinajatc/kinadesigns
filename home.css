@@ -236,6 +236,10 @@ main .btn:hover{
     border-radius: 10px;
 }
 
+.extra{
+    display: none;
+}
+
 footer{
     grid-area: footer;
     background-color: #A6CFD9;
