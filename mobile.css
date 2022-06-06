@@ -35,6 +35,11 @@ main{
     text-align: center;
 }
 
+.portfolio img{
+    width: 110%;
+    align-content: center;
+}
+
 
 main #bio{
     display: flex;
